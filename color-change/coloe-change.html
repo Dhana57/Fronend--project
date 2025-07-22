@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-changer  </title>
+    <style>
+        #head{
+            font-size: 30px;
+            color: red;
+            padding-left: 20px;
+        }
+        #color{
+            margin-left:80%;
+        }
+        button{
+            margin-top: 25%;
+            margin-left: 45%;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body id="back">
+
+    <div id="head">color-flipper
+        <span id="color">#fffff</span>
+    </div><hr>
+    <div >
+        <div>
+            <button id="but"> clike me</button>
+        </div>
+    </div>
+     
+    <script>
+       const but=document.getElementById('but')
+       const color=document.getElementById('color')
+       const back=document.getElementById('back')
+const hex=[0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e', 'f']
+
+but.addEventListener('click',changebg)
+
+function changebg(){
+    let hexcolor="#"
+    for(let i=1;i<=6;i++){
+        hexcolor= hexcolor+randomv()
+    }
+    back.style.background=hexcolor
+    color.innerHTML=hexcolor
+}
+
+
+
+function randomv(){
+let random = Math.floor(Math.random()*16)
+ return hex[random]
+}
+
+
+
+
+    </script>
+
+</body>
+</html>
