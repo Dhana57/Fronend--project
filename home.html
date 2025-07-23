@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="download.jpeg">
+    <link rel="stylesheet" href="home1.css">
+    <link rel="stylesheet" href="javas.js">
+    
+ 
+</head>
+<body>
+<nav>
+    <ul>
+        <li><img src="home-car/pexels-odobesku-9018708 (1).jpg" alt="car" class="nav"width="100px" height="120px"  ><a href="Image.html" style="text-decoration: none;" >Images</a></li>
+        <li><img src="home-car/Turkish Engineers Just Made A Real-Life Driveable BMW Transformer (Video).jpeg" alt="car" class="nav" width="100px" height="120px" ><a href="history.html" style="text-decoration: none;">History</a></li>
+        <li><img src="home-car/Tonal Drawing of a lamborghini.jpeg" alt="car" class="nav" width="100px" height="120px" ><a href="design.html" style="text-decoration: none;">Design</a></li>
+        <li><img src="home-car/pexels-broderick-armbrister-1186919-6462662.jpg" alt="car" class="nav" idth="100px" height="120px"><a href="mod.html" style="text-decoration: none;">Modified</a></li>
+    </ul>
+</nav>
+<main >
+    <p id="title">L A M B O R G H I N I</p> 
+    <div class="main">
+    <img src="home-car/pexels-matus-burian-6692972-5975531.jpg"  alt="main-car" id="im3">
+    <div>
+        <p id="s-title">Information about Lamborghini:
+        </p>
+    <p id="side">Lamborghini is an Italbrian luxury sports car brand founded in 1963 by Ferruccio Lamborghini. Known for their sleek designs, powerful V12 engines, and all-wheel-drive systems. Iconic models include the Miura, Countach, Diablo, and Huracán.</p>
+   <br><br><br> 
+</div class="table">
+<div>
+    <form action="">
+        <table>
+            <tr>
+                <th>Model</th><th>Details</th><th>Price in India (INR)</th>
+            </tr>
+            <tr>
+                <td>Lamborghini Huracan Evo</td><td>V10 5.2L engine, 571-631 bhp, 7 kmpl</td><td>₹3.22 Crore</td>
+            </tr>
+            <tr>
+                <td>Lamborghini Revuelto</td><td>V12 6.5L engine with 3 electric motors, 814 bhp</td><td>₹8.89 Crore</td>
+            </tr>
+            <tr>
+                <td>Lamborghini Urus SE</td><td>V8 4.0L twin turbo engine with electric motor, 789 bhp</td><td>₹4.57 Crore</td>
+            </tr>
+            <tr>
+                <td>Lamborghini Huracan Evo Spyder</td><td>V10 5.2L engine, 630 bhp, convertible</td><td>₹3.54 Crore</td>
+            </tr>
+            <tr>
+                <td>Lamborghini Huracan STO</td><td>V10 5.2L engine, 858 bhp, track-focused</td><td>₹4.99 Crore</td>
+            </tr>
+        </table>
+    </form>
+</div>
+<footer>
+    
+</footer>
+  
+</main><hr><br>
+<h1 id="js-img">----Change Image---- </h1>
+  <img id="myImage" src="cars/17.jpg" alt="Placeholder Image">
+  <br>
+  <button id="changebut" onclick="changeImageWithDelay()">Change Image</button>
+
+    
+  <script>
+    const thala = [
+      "cars/1.jpg",
+      "cars/20.jpg",
+      "cars/18.jpg"
+    ];
+    let currentImageIndex = 0;
+    function changeImageWithDelay() {
+         setTimeout(changeImage, 1000);  
+         }
+    function changeImage() {
+      const img = document.getElementById('myImage');
+      currentImageIndex = (currentImageIndex + 1) % thala.length;
+      img.src = thala[currentImageIndex];
+    }
+  </script>
+
+
+</body>
+</html>

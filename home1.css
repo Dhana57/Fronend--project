@@ -1,0 +1,249 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: solid;
+    
+}
+body{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+nav,a,ul,li{ 
+    display: flex;
+    border-radius: 30PX;
+    background-image: url(Premium\ Photo\ _\ Wallpaper\ of\ lamborghini\ car\ with\ smoke\ and\ galaxy\ vibe\ generated\ ai.jpeg);
+    object-fit: cover;
+    
+    
+}
+nav{
+    box-shadow: 0px 0px 10px  #111108,
+    0px 0px 20px #000000,
+    0px 0px 20px  #000000,
+    0px 0px 20px  #000000;
+    margin-top: 20px;
+}
+ a li{
+    margin-right: 100px;
+}
+
+.nav{ 
+    margin-top: 5px;
+    width:27%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+justify-content:center;
+border-radius:60%;
+border: 2px solid black ;
+box-shadow: 6px 6px 5px  black;
+}
+.nav:hover{
+
+    transform: scale(0.9);
+    transition-duration: 1s;
+    mix-blend-mode:screen;
+}
+
+a{ 
+   
+    display: flex;
+    flex-shrink: calc(2);
+    font-size: 25px;
+    margin-left: 10px;
+    background: #000;
+    border-radius: 20%;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    justify-content:center;
+    padding: 3px; 
+    box-shadow: 6px 6px 5px  rgb(42, 42, 43);
+      margin-top: 23px;
+}
+a:visited{
+    color: #ffffff;
+
+}
+
+a:hover{
+    text-shadow: 0px 0px 10px  #e7eb0d,
+    0px 0px 20px #e7eb0d,
+    0px 0px 20px  #e7eb0d,
+    10px 10px 20px  #e7eb0d;
+    background:rgb(23, 0, 41);
+   
+    
+}
+a:active{
+    text-shadow: 0px 0px 10px #fff200,
+    0px 0px 10px #fff200,
+    0px 0px 10px #fff200,
+    0px 0px 10px #fff200;
+    background:white;
+    color: black;
+    box-shadow: 6px 6px 5px  rgb(61, 61, 61);
+}
+
+
+
+#title{
+    font-size: 100px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    text-decoration: solid;
+    text-shadow: 0px 0px 10px #fff200,
+    0px 0px 10px #fff200,
+    0px 0px 10px #fff200,
+    0px 0px 10px #fff200;
+    color:rgb(247, 247, 247);
+ 
+    border-radius: 14%;
+    padding: 30px;
+}
+#title:hover{
+    color: #000;
+    text-shadow: 0px 0px 10px #ffffff,
+    0px 0px 10px #ffffff,
+    0px 0px 10px #ffffff,
+    0px 0px 10px #ffffff;
+    background:rgb(43, 0, 83);
+    transform: scale3d(.5);
+    transition: all 2s ease;
+    box-shadow: 0 0 5px #03c4ff,0 0 15px #02d9ffaf,0 0 25px #04d7f3, 0 0 100px #03ddfa;
+}
+
+
+
+
+#im3{
+    margin-top: 25%;
+    border-radius: 10%;
+    width: 25%;
+    margin-left: 20px;
+    transition: .2s ease-in-out;
+    border: 2px solid black;
+    
+}
+
+#im3:hover{
+
+    filter: blur(1px);
+    border-radius: 35%;
+    content:"";
+    animation: spin 2s linear infinite;
+    z-index:1;
+    box-shadow: 0px 0px 10px,
+    0px 0px 20px,
+    0px 0px 30px black;
+}
+#side{
+    position: absolute;
+    left: 30%;
+    top: 115%;
+    font-size: 20px; 
+}
+#side:hover{
+    color: wheat;
+
+}
+#s-title{
+    position: absolute;
+    left: 35%;
+    top: 95%;
+    font-weight: 1000;
+    font-size: 35px;
+}
+#s-title:hover{
+    text-decoration-line: underline ;
+    color: white;
+    
+}
+table{
+    margin-left: 25%;
+    border-collapse:collapse;
+    width: 50%  ;
+    font-size: 20px;
+    margin-bottom: 200px;
+    
+    
+}
+table,th,tr,td{
+    border: 3px solid black linear-gradient( white);
+    border-style:solid ;
+    padding: 5px;
+    color:rgb(204, 159, 255);
+
+}
+th,tr,td:hover{
+    color: white; 
+}
+
+
+
+
+
+
+
+
+
+#js-img{
+    margin-left: 35%;
+    margin-bottom: 6%;
+    padding: 5px;
+    
+}
+#js-img:hover{
+    border: 2px solid red;
+    width: 300px;
+    border-radius: 20px;
+    background:rgb(187, 125, 0);
+    box-shadow: 0px 0px 10px rgb(3, 186, 192),
+    0px 0px 20px rgb(1, 152, 172),
+    0px 0px 30px rgb(1, 153, 173),
+    0px 0px 40px rgb(4, 144, 199);
+}
+#myImage {
+    width: 70%;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px white,
+    0px 0px 20px white,
+    0px 0px 30px white,
+    0px 0px 40px white;
+  }
+  #myImage:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 20px rgb(0, 0, 0),
+    0px 0px 30px rgb(0, 0, 0),
+    0px 0px 40px rgb(0, 0, 0);
+  }
+#changebut{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 25px;
+    margin-left: 40%;
+    background-color: #04d7f3;
+    font-size: 20px;
+    color: darkblue;
+    font-weight: 700;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),
+    0px 0px 20px rgb(0, 0, 0),
+    0px 0px 30px rgb(0, 0, 0),
+    0px 0px 40px rgb(0, 0, 0);
+}
+#changebut:hover{
+    box-shadow: 0px 0px 10px rgb(158, 1, 98),
+    0px 0px 20px rgb(139, 0, 86),
+    0px 0px 30px rgb(126, 1, 88),
+    0px 0px 40px rgb(150, 0, 92);
+}
+
+
+
